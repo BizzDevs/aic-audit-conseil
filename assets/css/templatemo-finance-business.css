@@ -956,15 +956,6 @@ footer ul.menu-list li:last-child {
 	margin-bottom: 0px;
 }
 
-footer ul.menu-list li a {
-	font-size: 14px;
-	color: #fff;
-	transition: all 0.3s;
-}
-
-footer ul.menu-list li a:hover {
-	color: #a4c639;
-}
 
 .ftco-section {
 	padding: 12em 0; }
@@ -972,16 +963,10 @@ footer ul.menu-list li a:hover {
     margin-bottom: 0; 
 }
 
-footer {
-  padding: 7em 0; 
-}
-
 .footer a {
     color: #a3de83; 
 }
-.footer p {
-	color: rgba(255, 255, 255, 0.3); 
-}
+
 .footer .footer-heading {
     font-size: 30px;
     color: #fff;
@@ -990,15 +975,6 @@ footer {
 }
 .footer .footer-heading .logo {
 	color: #fff; 
-}
-.footer .menu {
-	margin-bottom: 30px; 
-}
-.footer .menu a {
-	color: rgba(255, 255, 255, 0.6);
-	margin: 0 10px;
-	text-transform: uppercase;
-	letter-spacing: 1px; 
 }
 .footer .ftco-footer-social li a {
 	background: transparent;
