@@ -966,104 +966,44 @@ footer ul.menu-list li a:hover {
 	color: #a4c639;
 }
 
-footer .contact-form input {
-	border-radius: 20px;
-	height: 40px;
-	line-height: 40px;
-	display: inline-block;
-	padding: 0px 15px;
-	color: #aaa!important;
-	background-color: #343434;
-	font-size: 13px;
-	text-transform: none;
-	box-shadow: none;
-	border: none;
-	margin-bottom: 15px;
+.ftco-section {
+	padding: 12em 0; }
+	.ftco-section h2 {
+    margin-bottom: 0; 
 }
 
-footer .contact-form input:focus {
-	outline: none;
-	box-shadow: none;
-	border: none;
-	background-color: #343434;
+footer {
+  padding: 7em 0; 
 }
 
-footer .contact-form textarea {
-	border-radius: 20px;
-	height: 120px;
-	max-height: 200px;
-	min-height: 120px;
-	display: inline-block;
-	padding: 15px;
-	color: #aaa!important;
-	background-color: #343434;
-	font-size: 13px;
-	text-transform: none;
-	box-shadow: none;
-	border: none;
-	margin-bottom: 15px;
+.footer a {
+    color: #a3de83; 
 }
-
-footer .contact-form textarea:focus {
-	outline: none;
-	box-shadow: none;
-	border: none;
-	background-color: #343434;
+.footer p {
+	color: rgba(255, 255, 255, 0.3); 
 }
-
-footer .contact-form ::-webkit-input-placeholder { /* Edge */
-  color: #aaa;
+.footer .footer-heading {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 30px; 
 }
-footer .contact-form :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: #aaa;
+.footer .footer-heading .logo {
+	color: #fff; 
 }
-footer .contact-form ::placeholder {
-  color: #aaa;
+.footer .menu {
+	margin-bottom: 30px; 
 }
-
-footer .contact-form button.filled-button {
-	background-color: transparent;
-	color: #fff;
-	background-color: #a4c639;
-	border: none;
-	font-size: 13px;
+.footer .menu a {
+	color: rgba(255, 255, 255, 0.6);
+	margin: 0 10px;
 	text-transform: uppercase;
-	font-weight: 700;
-	padding: 12px 30px;
-	border-radius: 30px;
-	display: inline-block;
-	transition: all 0.3s;
-	outline: none;
-	box-shadow: none;
-	text-shadow: none;
-	cursor: pointer;
+	letter-spacing: 1px; 
 }
-
-footer .contact-form button.filled-button:hover {
-	background-color: #fff;
-	color: #a4c639;
+.footer .ftco-footer-social li a {
+	background: transparent;
+	border: 1px solid #a3de83; 
 }
-
-
-
-/* Sub-footer Style */
-
-.sub-footer {
-	background-color: #343434;
-	text-align: center;
-	padding: 25px 0px;
-}
-
-.sub-footer p {
-	color: #fff;
-	font-weight: 300;
-	letter-spacing: 0.5px;
-}
-
-.sub-footer a {
-	color: #fff;
-}
-
 
 .page-heading {
 	text-align: center;
@@ -1285,6 +1225,7 @@ footer .contact-form button.filled-button:hover {
 	}
 	footer {
 		padding: 80px 0px 20px 0px;
+		background-color: #343434;
 	}
 	footer .footer-item {
 		border-bottom: 1px solid #343434;
