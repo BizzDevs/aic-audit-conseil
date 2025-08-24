@@ -738,35 +738,13 @@ button.main-button-icon:hover i {
   background-repeat: no-repeat;
 }
 
-/* Partners Style */
-
-.contact-partners {
-	margin-top: -8px!important;
-}
-
-.partners {
-	margin-top: 140px;
-	background-color: #f7f7f7;
-	padding: 60px 0px;
-}
-
-.partners .owl-item {
-	text-align: center;
-	cursor: pointer;
-}
-
-.partners .partner-item img {
-	max-width: 156px;
-	margin: auto;
-}
-
-
 
 /* Footer Style */
 
 footer {
+	margin-top: 140px;
 	background-color: #232323;
-	padding: 80px 0px;
+	padding: 40px 0px;
 	color: #fff;
 }
 
