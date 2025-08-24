@@ -83,6 +83,7 @@
 .services .tab-content-services .right-image img {
   width: 100%;
   overflow: hidden;
+	border-radius: 0.8rem;
 }
 
 .services .tab-content-services .left-text h4 {
