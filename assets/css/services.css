@@ -102,3 +102,7 @@
   margin-bottom: 50px;
 }
 
+.tab-content-services li {
+    line-height: 1.1rem;
+    padding-bottom: 1em;
+}
