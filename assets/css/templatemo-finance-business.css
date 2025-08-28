@@ -818,8 +818,13 @@
  	letter-spacing: .5px
  }
 
- .callback-form .left-text-content ul li img {
- 	margin-right: 15px
+ .callback-form .left-text-content ul li span{
+ 	vertical-align: super;
+ }
+ .callback-form .left-text-content ul li em{
+ 	margin: 0 12px;
+    border: 1 solid var(--blanc);
+    background-image: linear-gradient(to right,var(--bleu-clair), purple);
  }
 
  .callback-form .contact-form input,
@@ -1122,8 +1127,9 @@
  }
 
  .services .tabs .active .list-item {
- 	background-color: var(--gris) !important;
- 	color: #fff !important
+ 	background-color: white !important;
+	border: 2px solid var(--violet);
+	color: var(--violet);
  }
 
  .services .tabs .active .list-item .icon {
@@ -1132,11 +1138,12 @@
 
  .services .list-item {
  	border-radius: .8em;
- 	background-color: #f4f4f4;
- 	text-align: center;
- 	padding: 40px 0;
- 	margin: 15px 0;
- 	transition: all .5s
+    background-color: var(--blanc);
+    text-align: center;
+    padding: 40px 0;
+    margin: 15px 0;
+    transition: all .5s;
+    border: 2px solid var(--blanc);
  }
 
  .services .list-item .icon {
